@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "jspm bundle-sfx app childapp2.sfx.js --format amd"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -16,16 +15,13 @@
     "dependencies": {
       "@angular/common": "npm:@angular/common@^5.0.3",
       "@angular/core": "npm:@angular/core@^5.0.2",
-      "@angular/forms": "npm:@angular/forms@^5.0.3",
-      "@angular/http": "npm:@angular/http@^5.0.3",
-      "@angular/platform-browser": "npm:@angular/platform-browser@^5.0.2",
-      "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@^5.0.2",
+      "@angular/platform-browser": "npm:@angular/platform-browser@^5.0.3",
+      "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@^5.0.3",
       "@angular/router": "npm:@angular/router@^5.0.3",
       "es6-promise": "npm:es6-promise@^4.1.1",
       "es6-shim": "npm:es6-shim@^0.35.3",
       "reflect-metadata": "npm:reflect-metadata@^0.1.10",
       "rxjs": "npm:rxjs@^5.5.2",
-      "single-spa-angular2": "npm:single-spa-angular2@^1.1.0",
       "ts": "github:frankwallis/plugin-typescript@^7.1.1",
       "typescript": "npm:typescript@^2.6.1",
       "zone.js": "npm:zone.js@^0.8.18"

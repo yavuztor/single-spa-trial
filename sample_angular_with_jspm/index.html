@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <title>My First Angular2 App</title>
+  <base href="/sample_angular_with_jspm/" />
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+</head>
+<body>
+	<app-root>Loading...</app-root>
+  <!-- this will be our entry component for the application -->
+  <app></app>
+  <script>
+    System.import('app').then(null, console.error.bind(console));
+  </script>
+</body>
+</html>
