@@ -4,6 +4,7 @@
 import 'reflect-metadata';
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { Router } from '@angular/router';
 import singleSpaAngular2 from 'single-spa-angular2';
 import { AppModule } from './app.module';
 
@@ -16,6 +17,7 @@ const ng2Lifecycles = singleSpaAngular2({
 	mainModule: AppModule,
 	angularPlatform: platformBrowserDynamic(),
 	template: `<app-root2>Loading...</app-root2>`,
+	Router
 });
 
 export const bootstrap = [
