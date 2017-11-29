@@ -15,11 +15,11 @@
   "jspm": {
     "dependencies": {
       "@angular/common": "npm:@angular/common@^5.0.3",
-      "@angular/core": "npm:@angular/core@^5.0.2",
+      "@angular/core": "npm:@angular/core@^5.0.3",
       "@angular/forms": "npm:@angular/forms@^5.0.3",
       "@angular/http": "npm:@angular/http@^5.0.3",
-      "@angular/platform-browser": "npm:@angular/platform-browser@^5.0.2",
-      "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@^5.0.2",
+      "@angular/platform-browser": "npm:@angular/platform-browser@^5.0.3",
+      "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@^5.0.3",
       "@angular/router": "npm:@angular/router@^5.0.3",
       "es6-promise": "npm:es6-promise@^4.1.1",
       "es6-shim": "npm:es6-shim@^0.35.3",

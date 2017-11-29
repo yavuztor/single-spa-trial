@@ -1,6 +1,6 @@
-import 'es6-shim';
-import 'es6-promise';
-import 'zone.js';
+// import 'es6-shim';
+// import 'es6-promise';
+// import 'zone.js';
 import 'reflect-metadata';
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';

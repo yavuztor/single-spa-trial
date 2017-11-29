@@ -1,3 +1,9 @@
+// polyfills, etc..
+import 'es6-shim';
+import 'es6-promise';
+import 'zone.js';
+
+// main dependencies.
 import { declareChildApplication, start } from 'single-spa';
 
 declareChildApplication('childapp', loadChildapp, childappActive);
@@ -9,7 +15,7 @@ function loadChildapp() {
 }
 
 function childappActive() {
-	return location.hash.indexOf('childapp') >= 0;
+	return true;
 }
 
 function loadChildapp2() {
@@ -17,5 +23,5 @@ function loadChildapp2() {
 }
 
 function childapp2Active() {
-	return location.hash.indexOf('childapp') >= 0;
+	return true;
 }
