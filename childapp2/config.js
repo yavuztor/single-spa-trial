@@ -31,11 +31,11 @@ System.config({
 
   map: {
     "@angular/common": "npm:@angular/common@5.0.3",
-    "@angular/core": "npm:@angular/core@5.0.2",
+    "@angular/core": "npm:@angular/core@5.0.3",
     "@angular/forms": "npm:@angular/forms@5.0.3",
     "@angular/http": "npm:@angular/http@5.0.3",
-    "@angular/platform-browser": "npm:@angular/platform-browser@5.0.2",
-    "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@5.0.2",
+    "@angular/platform-browser": "npm:@angular/platform-browser@5.0.3",
+    "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@5.0.3",
     "@angular/router": "npm:@angular/router@5.0.3",
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
@@ -47,6 +47,7 @@ System.config({
     "single-spa-angular2": "npm:single-spa-angular2@1.1.0",
     "ts": "github:frankwallis/plugin-typescript@7.1.1",
     "typescript": "npm:typescript@2.6.1",
+    "x-tag": "npm:x-tag@1.5.11",
     "zone.js": "npm:zone.js@0.8.18",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
@@ -108,27 +109,15 @@ System.config({
     "github:jspm/nodelibs-vm@0.1.0": {
       "vm-browserify": "npm:vm-browserify@0.0.4"
     },
-    "npm:@angular/common@5.0.2": {
-      "@angular/core": "npm:@angular/core@5.0.2",
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "rxjs": "npm:rxjs@5.5.2",
-      "tslib": "npm:tslib@1.8.0"
-    },
     "npm:@angular/common@5.0.3": {
       "@angular/core": "npm:@angular/core@5.0.3",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "rxjs": "npm:rxjs@5.5.2",
       "tslib": "npm:tslib@1.8.0"
     },
-    "npm:@angular/compiler@5.0.2": {
+    "npm:@angular/compiler@5.0.3": {
       "process": "github:jspm/nodelibs-process@0.1.2",
       "tslib": "npm:tslib@1.8.0"
-    },
-    "npm:@angular/core@5.0.2": {
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "rxjs": "npm:rxjs@5.5.2",
-      "tslib": "npm:tslib@1.8.0",
-      "zone.js": "npm:zone.js@0.8.18"
     },
     "npm:@angular/core@5.0.3": {
       "process": "github:jspm/nodelibs-process@0.1.2",
@@ -150,17 +139,11 @@ System.config({
       "rxjs": "npm:rxjs@5.5.2",
       "tslib": "npm:tslib@1.8.0"
     },
-    "npm:@angular/platform-browser-dynamic@5.0.2": {
-      "@angular/common": "npm:@angular/common@5.0.2",
-      "@angular/compiler": "npm:@angular/compiler@5.0.2",
-      "@angular/core": "npm:@angular/core@5.0.2",
-      "@angular/platform-browser": "npm:@angular/platform-browser@5.0.2",
-      "tslib": "npm:tslib@1.8.0"
-    },
-    "npm:@angular/platform-browser@5.0.2": {
-      "@angular/common": "npm:@angular/common@5.0.2",
-      "@angular/core": "npm:@angular/core@5.0.2",
-      "process": "github:jspm/nodelibs-process@0.1.2",
+    "npm:@angular/platform-browser-dynamic@5.0.3": {
+      "@angular/common": "npm:@angular/common@5.0.3",
+      "@angular/compiler": "npm:@angular/compiler@5.0.3",
+      "@angular/core": "npm:@angular/core@5.0.3",
+      "@angular/platform-browser": "npm:@angular/platform-browser@5.0.3",
       "tslib": "npm:tslib@1.8.0"
     },
     "npm:@angular/platform-browser@5.0.3": {
@@ -448,7 +431,7 @@ System.config({
       "buffer": "github:jspm/nodelibs-buffer@0.1.1",
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2",
-      "symbol-observable": "npm:symbol-observable@1.0.4"
+      "symbol-observable": "npm:symbol-observable@1.1.0"
     },
     "npm:safe-buffer@5.1.1": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.1"
@@ -500,6 +483,9 @@ System.config({
     },
     "npm:vm-browserify@0.0.4": {
       "indexof": "npm:indexof@0.0.1"
+    },
+    "npm:x-tag@1.5.11": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:zone.js@0.8.18": {
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",

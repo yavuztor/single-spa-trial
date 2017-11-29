@@ -1,15 +1,14 @@
 {
-  "jspm": {
-    "dependencies": {
-      "single-spa": "npm:single-spa@^3.6.1"
-    },
-    "devDependencies": {
-      "babel": "npm:babel-core@^5.8.24",
-      "babel-runtime": "npm:babel-runtime@^5.8.24",
-      "core-js": "npm:core-js@^1.1.4"
-    }
+  "name": "mainapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "jspm": "^0.16.53"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "systemjs": "^0.20.19"
   }
 }
