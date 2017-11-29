@@ -6,7 +6,7 @@ import { AppModule } from './app.module';
 import xtag from 'x-tag/dist/x-tag-no-polyfills';
 
 var bootsrappedModule = null;
-xtag.register('child-app', {
+xtag.register('child-app-two', {
 	content: '<app-root2></app-root2>',
 	lifecycle: {
 		inserted: function() {

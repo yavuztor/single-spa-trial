@@ -43,6 +43,7 @@ System.config({
     "single-spa-angular2": "npm:single-spa-angular2@1.1.0",
     "ts": "github:frankwallis/plugin-typescript@7.1.1",
     "typescript": "npm:typescript@2.6.1",
+    "x-tag": "npm:x-tag@1.5.11",
     "zone.js": "npm:zone.js@0.8.18",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
@@ -456,6 +457,9 @@ System.config({
     },
     "npm:vm-browserify@0.0.4": {
       "indexof": "npm:indexof@0.0.1"
+    },
+    "npm:x-tag@1.5.11": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:zone.js@0.8.18": {
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",
